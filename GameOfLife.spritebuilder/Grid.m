@@ -51,7 +51,7 @@ static const int GRID_COLUMNS = 9;
         for (int j = 0; j < GRID_COLUMNS; j++) {
             Creature *creature = [[Creature alloc] initCreature];
             creature.anchorPoint = ccp(0,0);
-            creature.position = ccp(x, y);
+            creature.position = ccp(x + 2, y);
             [self addChild:creature];
             
             // this is shorthand to access an array inside an array
