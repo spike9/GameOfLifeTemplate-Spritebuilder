@@ -50,7 +50,7 @@ static const int GRID_COLUMNS = 9;
         
         for (int j = 0; j < GRID_COLUMNS; j++) {
             Creature *creature = [[Creature alloc] initCreature];
-            creature.anchorPoint = ccp(0.5,0.5);
+            creature.anchorPoint = ccp(-0.1,-0.1);
             creature.position = ccp(x, y);
             [self addChild:creature];
             
