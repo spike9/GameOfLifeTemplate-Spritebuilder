@@ -1,5 +1,5 @@
 //
-//  Creatures.h
+//  Creature.h
 //  GameOfLife
 //
 //  Created by Daniel Wyss on 24/11/14.
@@ -8,7 +8,7 @@
 
 #import "CCSprite.h"
 
-@interface Creatures : CCSprite
+@interface Creature : CCSprite
 
 // stores the current stage of creature
 @property (nonatomic, assign) BOOL isAlive;

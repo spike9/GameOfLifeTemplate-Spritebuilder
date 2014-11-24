@@ -1,14 +1,14 @@
 //
-//  Creatures.m
+//  Creature.m
 //  GameOfLife
 //
 //  Created by Daniel Wyss on 24/11/14.
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 
-#import "Creatures.h"
+#import "Creature.h"
 
-@implementation Creatures
+@implementation Creature
 
 -(instancetype)initCreature{
     // since we made Creature inherit from CCSprite, 'super' below refers to CCSprite
