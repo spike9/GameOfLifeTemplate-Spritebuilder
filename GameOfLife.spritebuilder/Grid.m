@@ -89,5 +89,11 @@ static const int GRID_COLUMNS = 10;
     
 }
 
+-(void)evolveStep
+{
+    int i =1;
+    
+}
+
 
 @end
