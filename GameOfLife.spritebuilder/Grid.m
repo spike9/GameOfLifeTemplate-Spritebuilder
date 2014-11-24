@@ -154,10 +154,14 @@ static const int GRID_COLUMNS = 10;
             Creature *currentCreature = _gridArray[i][j];
             if (currentCreature.livingNeigbors == 3) {
                 currentCreature.isAlive = YES;
-                numAlive += 1;
+                
             }
             else if (currentCreature.livingNeigbors <= 1 || currentCreature.livingNeigbors >=4){
                 currentCreature.isAlive = NO;
+            }
+            
+            if (currentCreature.isAlive) {
+                numAlive += 1;
             }
             
             
